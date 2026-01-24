@@ -17,4 +17,4 @@ An automated sorting system controlled by Siemens S7-1200 PLC, simulated in Fact
 * `/Documentation`: IO List and Logic Flowchart.
 
 ---
-*By Le Quoc Bao - Freshman Engineering Student*
+*By Le Quoc Bao - K25 HCMUT*
