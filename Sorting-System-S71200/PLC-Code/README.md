@@ -1,16 +1,20 @@
-# 🏭 Automated Sorting System (Digital Twin)
+# Sorting System - S7-1200 & Factory I/O
 
-Dự án mô phỏng hệ thống phân loại sản phẩm theo chiều cao sử dụng công nghệ Digital Twin.
+## Project Description
+An automated sorting system controlled by Siemens S7-1200 PLC, simulated in Factory I/O. Focuses on logic reliability and mechanical safety.
 
-### 🛠 Công nghệ sử dụng:
-- **PLC:** Siemens S7-1200 (CPU 1214C).
-- **Phần mềm:** TIA Portal V16.
-- **Mô phỏng 3D:** Factory IO.
+## Technical Specifications
+* **PLC:** Siemens S7-1200 (PLCSIM).
+* **Environment:** Factory I/O (Sorting Station - Basic).
+* **Core Logic:**
+    * Height-based item categorization.
+    * **Interlock:** Prevents Pusher-Conveyor collision.
+    * **Timer Logic:** 2s delay after Pusher retraction to stabilize the system before the next cycle.
+    * **Refactored Tags:** Clean and optimized I/O mapping for easy maintenance.
 
-### ⚙️ Tính năng chính:
-- Nhận diện kích thước kiện hàng thông qua cảm biến quang.
-- Điều khiển băng chuyền và tay gạt phân loại tự động.
-- Tích hợp nút nhấn dừng khẩn cấp (Emergency Stop).
+## Project Files
+* `/Source-Code`: TIA Portal project file (.zap).
+* `/Documentation`: IO List and Logic Flowchart.
 
 ---
-*Thực hiện bởi: Lê Quốc Bảo - K25 HCMUT*
+*By Le Quoc Bao - Freshman Engineering Student*
